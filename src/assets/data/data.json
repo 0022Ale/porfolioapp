@@ -22,12 +22,9 @@
 "ubicacion": "Buenos Aires (Argentina)",
 "contacto": "Informacion de contacto",
 "descripcion": "Entusiasta en programación",
-
-"infomi":[{
-    "dato1":"Soy Abogada recibida en la Facultad de Derecho de Buenos Aires. Me especializo en Derecho Laboral y cuento con más de diez años de experencia en el área. En los inicios de mi carrera profesional comence realizando tareas introductorias a la gestión de expedientes y seguimiento de los mismos para estudios de gran reconocimiento y envergadura.",
-    "dato2":"Más tarde comencé mi desarrollo profesional el área legal de una importante empresa de seguros, fue aquí cuando comenzó mi pasión por la programación y el desarrollo de potenciales herramientas orientadas a la optimización de la gestión diaria. En una primera etapa los desarrollos en programación los fue realizando a nivel personal y conforme acrecentaba conocimientos los fui exportando a diferentes sectores y equipos dentro del área.",
-    "dato3":"La pasión se convitió en algo más y fue en ese momento que decidí aprovechar la maravillosa oportunidad que brinda el Curso Completo de Argentina Programa."
-  }],
+"dato1":"Soy Abogada recibida en la Facultad de Derecho de Buenos Aires. Me especializo en Derecho Laboral y cuento con más de diez años de experencia en el área. En los inicios de mi carrera profesional comence realizando tareas introductorias a la gestión de expedientes y seguimiento de los mismos para estudios de gran reconocimiento y envergadura.",
+"dato2":"Más tarde comencé mi desarrollo profesional el área legal de una importante empresa de seguros, fue aquí cuando comenzó mi pasión por la programación y el desarrollo de potenciales herramientas orientadas a la optimización de la gestión diaria. En una primera etapa los desarrollos en programación los fue realizando a nivel personal y conforme acrecentaba conocimientos los fui exportando a diferentes sectores y equipos dentro del área.",
+"dato3":"La pasión se convitió en algo más y fue en ese momento que decidí aprovechar la maravillosa oportunidad que brinda el Curso Completo de Argentina Programa.",
 
 "experiencia": [
   {"empresa":"Galeno Art Seguros",
@@ -78,5 +75,17 @@
     {"tipo":"Gestión del tiempo 90%"
   },
   {"tipo":"Comunicación 85%"
+  }],
+
+  "proyectos": [
+    {"nombre":"Mi Primer Porfolio Web",
+    "inicio":"Iniciado en 08/2022",
+    "info":"Se trata de un proyecto integrador que tiene como objetivo poder aplicar los para aplicar lo aprendido y que te evaluemos, puedas publicar el portfolio y usarlo como carta de presentación"},
+    {"nombre":"Gestion Integral de Juicios",
+    "inicio":"Iniciado en 2016",
+    "info":"Se trata de un proyecto escrito en Visual Basic para Excel y Outlook a través del cual se puede gestionar grandes volumenes de datos. Permite realizar reportes de Gestion y enviarlos de manera personalizada a su referentes. Permite Realizar valorizaciones, registrarlas y remitirlas a los diferentes interlocutores de manera diferenciada"},
+    {"nombre":"Gestion de Mesa de Entradas y Manager de Mesa de Entradas",
+    "inicio":"Iniciados en 2022",
+    "info":"Se trata de un proyecto escrito en Visual Basic para Excel y Outlook a través del cual se puede registrar grandes volumenes de datos Permite extraer datos de repositorios compartidos, unificarlos y crear copias de seguridad Permite realizar reportes de Gestion y enviarlos de manera personalizada a su referentes"
   }]
 }
