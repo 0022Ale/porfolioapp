@@ -1,0 +1,20 @@
+<section class="banner" id="cero">
+  <div class="principal">
+      <img
+        [src]="miPorfolio.bannerprincipal"
+      />
+  </div>
+  <div class="secundaria">
+      <img
+        [src]="miPorfolio.perfil"
+      />
+  </div>
+  <div class="informacion">
+      <a href="#" class="editar"><span class="material-symbols-outlined">drive_file_rename_outline</span></a>
+      <p><strong>{{miPorfolio.name}}</strong></p>
+      <p><u>{{miPorfolio.profesion}}</u></p>
+      <p> {{miPorfolio.ubicacion}}</p>
+      <a href="#">{{miPorfolio.contacto}}</a>
+      <p>{{miPorfolio.descripcion}}</p>
+  </div>
+</section>
