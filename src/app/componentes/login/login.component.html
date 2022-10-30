@@ -1,23 +1,23 @@
 <div class="formcontainer" id="seis">
   <div class="logincontainer" id="ingreso">
       <h1>LOGIN USUARIO</h1>
-      <form method="post" id="siete">
+      <form (ngSubmit)="useLogin" id="siete">
           <div class="formulario">
-              <label for="inputEmail" class="form__label">Email</label>
-              <input class="inpunt" type="text" placeholder="Ingrese correo electrónico" name="username" id="username" required>
+              <label for="inputEmail" class="form__label">Email: </label>
+              <input type="email" [(ngmodel)]="user.UserId" class="inpunt" placeholder="Ingrese correo electrónico" formcControlName="userId" id="email" required>
           </div>
-          <br>
+          <br/>
           <div class="formulario">
-              <label for="password" class="form__label">Password</label>
-              <input class="inpunt" type="text" placeholder="Ingrese contraseña" name="password" id="password" required>
+              <label for="InputPassword" class="form__label">Password: </label>
+              <input type="password" [(ngmodel)]="user.pasword" class="inpunt" class="inpunt" placeholder="Ingrese contraseña" formcControlName="password" id="password" required>
           </div>
+          <br/>
           <div class="formulario">
-              <button type="submit" class="btnlogin">ENVIAR</button>
+              <button type="submit" class="btnlogin">Iniciar Sesión</button>
           </div>
           <div class="formulario">
               <a href="/index.html"><button class="cancel" type="button" name="cancelar"><i class="fa fa-close" aria-hidden="true"></i></button></a>
           </div>
-          <script src="main.js"></script>
       </form>
   </div>
 </div>
