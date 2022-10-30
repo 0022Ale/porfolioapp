@@ -16,6 +16,7 @@ export class EncabezadoComponent implements OnInit {
       console.log(data);
       this.miPorfolio = data;
     });
+
   }
 
 }

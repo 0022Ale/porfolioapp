@@ -1,16 +1,11 @@
 <section class="experiencia" id="dos">
-  <a href="#" class="editar"><span class="material-symbols-outlined">drive_file_rename_outline</span></a>
+  <a href="#" class="editar"><i class="fa fa-edit"></i></a>
       <h2>Experiencia</h2>
       <ul class="trabajo">
-          <li *ngFor="let experiencia of experienciaList" class="empresa"><strong>{{experiencia.empresa}}</strong></li>
-          <li *ngFor="let experiencia of experienciaList" class="puesto">{{experiencia.puesto}}/li>
-          <li *ngFor="let experiencia of experienciaList" class="descripcion">{{experiencia.descripcion}}</li>
-          <li *ngFor="let experiencia of experienciaList" class="empresa"><strong>{{experiencia.empresa}}</strong>
-          <li *ngFor="let experiencia of experienciaList" class="puesto">{{experiencia.puesto}}</li>
-          <li *ngFor="let experiencia of experienciaList" class="descripcion">{{experiencia.descripcion}}</li>
-          <li *ngFor="let experiencia of experienciaList" class="empresa"><strong>{{experiencia.empresa}}</strong>
-          <li *ngFor="let experiencia of experienciaList" class="puesto">{{experiencia.puesto}}</li>
-          <li *ngFor="let experiencia of experienciaList"   class="descripcion">{{experiencia.descripcion}}</li>
+          <li *ngFor="let experiencia of experienciaList">
+            <p class="empresa"><strong>{{experiencia.empresa}}</strong></p>
+            <p class="puesto">{{experiencia.puesto}}</p>
+            <p class="descripcion">{{experiencia.descripcion}}</p>
+          </li>
       </ul>
 </section>
-

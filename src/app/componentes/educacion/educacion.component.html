@@ -1,28 +1,38 @@
 <section class="educacion" id="tres">
-  <a href="#" class="editar"><span class="material-symbols-outlined">drive_file_rename_outline</span></a>
+  <a href="#" class="editar"><i class="fa fa-edit"></i></a>
   <h2>Educacion</h2>
   <h3>Formación Académica</h3>
   <div class="estudios">
-      <h4>Título</h4>
-      <h4>Universidad</h4>
-      <p class="descripcion"> Carrera de Especialización en Derecho del Trabajo</p>
-      <img src="/img/ubalogo.jpg" alt="Logo UBA" class="logoed">
-      <p class="descripcion"> Bachiller Universitario en Derecho</p>
-      <img src="/img/ubalogo.jpg" alt="Logo UBA" class="logoed">
-      <p class="descripcion"> Abogada Especialista en Derecho del Trabajo</p>
-      <img src="/img/ubalogo.jpg" alt="Logo UBA" class="logoed">
-  </div>
-  <hr class="formacion">
-  <h3>Idiomas</h3>
-  <div class="idiomas">
-      <h4>Idioma</h4>
-      <h4>Nivel</h4>
-      <h4>Instituto</h4>
-      <p class="idioma">Ingles</p>
-      <p class="nivel">Nivel Avanzado</p>
-      <img src="/img/logoingles.jpg" alt="Logo Cultural Inglesa" class="logoed">
-      <p class="idioma">Portugués</p>
-      <p class="nivel">Nivel Avanzado</p>
-      <img src="/img/logoportugues.jpg" alt="Logo Instituto Portuges" class="logoed">
+    <div *ngFor="let estudios of estudiosList">
+        <ul>
+          <h4>Carrera</h4>
+          <li>
+             <p class="descripcion">{{estudios.carrera}}</p>
+          </li>
+          <h4>Universidad</h4>
+          <li>
+            <img [src]="estudios.logouniversidad" class="logoed"
+              />
+          </li>
+        </ul>
+    </div>
+    <hr class="formacion">
+    <h3>Idiomas</h3>
+    <div class="idiomas">
+        <div *ngFor="let formacion of formacionList">
+          <ul>
+            <li>
+              <p class="idioma">{{formacion.idioma}}</p>
+            </li>
+            <li>
+              <p class="nivel">{{formacion.nivel}}</p>
+            </li>
+            <li>
+              <img [src]="formacion.logo" class="logoed"
+              />
+            </li>
+          </ul>
+        </div>
+    </div>
   </div>
 </section>
