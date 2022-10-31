@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms/';
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
 import { BannerComponent } from './componentes/banner/banner.component';
@@ -11,9 +13,9 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import { PorfolioService } from './servicios/porfolio.service';
-import { HttpClientModule } from '@angular/common/http'; 
+import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './componentes/login/login.component';
+import { PorfolioService} from './servicios/porfolio.service';
 
 @NgModule({
   declarations: [
@@ -25,17 +27,13 @@ import { LoginComponent } from './componentes/login/login.component';
     EducacionComponent,
     HabilidadesComponent,
     ProyectosComponent,
-    FooterComponent,
-    LoginComponent
+    FooterComponent
   ],
 
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    FormsModule,
-    ReactiveFormsModule
-
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

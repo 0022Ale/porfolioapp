@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { LoginuserService } from 'src/app/services/loginuser.service';
-import { User } from 'src/app/services/user';
+import { LoginuserService } from 'src/app/servicios/loginuser.service';
+import { User } from 'src/app/user';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -9,15 +10,15 @@ import { User } from 'src/app/services/user';
 export class LoginComponent implements OnInit {
 
   user:User =new User();
-  constructor(private loginuserservice:LoginUserService{}
+  constructor(private loginuserservice: LoginuserService) {}
 
   ngOnInit(): void {
   }
 
   userLogin(){
     console.log(this.user);
-    this.loginuserservice.loginuser((this.user).subscribe(data =>{
+    this.loginuserservice.loginUser(this.user).subscribe((data: any)=>{
       window.location.href ="/porfolio"
-    }, error=>alert("POr favor ingrese un usuario y contraseña correcto"));
+    },(error: any)=>alert("POr favor ingrese un usuario y contraseña correcto"));
   }
 }

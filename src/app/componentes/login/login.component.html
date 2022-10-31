@@ -1,15 +1,15 @@
 <div class="formcontainer" id="seis">
   <div class="logincontainer" id="ingreso">
       <h1>LOGIN USUARIO</h1>
-      <form (ngSubmit)="useLogin" id="siete">
+      <form Submit="userLogin" id="siete">
           <div class="formulario">
               <label for="inputEmail" class="form__label">Email: </label>
-              <input type="email" [(ngmodel)]="user.UserId" class="inpunt" placeholder="Ingrese correo electrónico" formcControlName="userId" id="email" required>
+              <input type="email"  class="inpunt" placeholder="Ingrese correo electrónico" formcControlName="userId" id="email" required>
           </div>
           <br/>
           <div class="formulario">
               <label for="InputPassword" class="form__label">Password: </label>
-              <input type="password" [(ngmodel)]="user.pasword" class="inpunt" class="inpunt" placeholder="Ingrese contraseña" formcControlName="password" id="password" required>
+              <input type="password" class="inpunt" class="inpunt" placeholder="Ingrese contraseña" formcControlName="password" id="password" required>
           </div>
           <br/>
           <div class="formulario">
