@@ -1,9 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { FormsModule, ReactiveFormsModule } from '@angular/forms/';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
-
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
 import { BannerComponent } from './componentes/banner/banner.component';
@@ -14,8 +12,8 @@ import { HabilidadesComponent } from './componentes/habilidades/habilidades.comp
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PorfolioService } from './servicios/porfolio.service';
 import { LoginComponent } from './componentes/login/login.component';
-import { PorfolioService} from './servicios/porfolio.service';
 
 @NgModule({
   declarations: [
@@ -27,13 +25,17 @@ import { PorfolioService} from './servicios/porfolio.service';
     EducacionComponent,
     HabilidadesComponent,
     ProyectosComponent,
-    FooterComponent
-  ],
+    FooterComponent,
+    LoginComponent
+],
 
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
