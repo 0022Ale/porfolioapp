@@ -1,1 +1,145 @@
 [debug] [2022-10-31T23:13:44.707Z] ----------------------------------------------------------------------
+[debug] [2022-10-31T23:13:44.709Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aleja\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-10-31T23:13:44.709Z] CLI Version:   11.15.0
+[debug] [2022-10-31T23:13:44.709Z] Platform:      win32
+[debug] [2022-10-31T23:13:44.709Z] Node Version:  v16.15.1
+[debug] [2022-10-31T23:13:44.710Z] Time:          Mon Oct 31 2022 20:13:44 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-10-31T23:13:44.710Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-31T23:13:44.796Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-31T23:13:44.796Z] > authorizing via signed-in user (alejandra.sagasta@gmail.com)
+[debug] [2022-10-31T23:13:44.913Z] java version "18.0.2" 2022-07-19
+
+[debug] [2022-10-31T23:13:44.914Z] Java(TM) SE Runtime Environment (build 18.0.2+9-61)
+Java HotSpot(TM) 64-Bit Server VM (build 18.0.2+9-61, mixed mode, sharing)
+
+[debug] [2022-10-31T23:13:44.931Z] Parsed Java major version: 18
+[info] i  emulators: Starting emulators: auth, functions, firestore, database, hosting, pubsub, storage, eventarc {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, database, hosting, pubsub, storage, eventarc"}}
+[debug] [2022-10-31T23:13:44.952Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-31T23:13:44.952Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-31T23:13:44.952Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-31T23:13:44.952Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-31T23:13:44.952Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-31T23:13:44.952Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-31T23:13:44.952Z] [pubsub] Pub/Sub Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-31T23:13:44.952Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-31T23:13:44.953Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8085}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2022-10-31T23:13:44.960Z] [hub] writing locator at C:\Users\aleja\AppData\Local\Temp\hub-porfolio0022ale.json
+[debug] [2022-10-31T23:13:44.970Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-31T23:13:44.970Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-31T23:13:44.970Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8085}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-10-31T23:13:44.989Z] defaultcredentials: writing to file C:\Users\aleja\AppData\Roaming\firebase\alejandra_sagasta_gmail.com_application_default_credentials.json
+[debug] [2022-10-31T23:13:44.992Z] Setting GAC to C:\Users\aleja\AppData\Roaming\firebase\alejandra_sagasta_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\aleja\\AppData\\Roaming\\firebase\\alejandra_sagasta_gmail.com_application_default_credentials.json"}}
+[debug] [2022-10-31T23:13:44.993Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale/adminSdkConfig [none]
+[debug] [2022-10-31T23:13:45.387Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale/adminSdkConfig 200
+[debug] [2022-10-31T23:13:45.387Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale/adminSdkConfig {"projectId":"porfolio0022ale","databaseURL":"https://porfolio0022ale-default-rtdb.firebaseio.com","storageBucket":"porfolio0022ale.appspot.com","locationId":"southamerica-east1"}
+[debug] [2022-10-31T23:13:45.402Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-10-31T23:13:45.402Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2022-10-31T23:13:45.402Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\aleja\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.15.1.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","porfolio0022ale","--rules","C:\\Users\\aleja\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\aleja\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.15.1.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"porfolio0022ale\",\"--rules\",\"C:\\\\Users\\\\aleja\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2022-10-31T23:13:47.231Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale [none]
+[debug] [2022-10-31T23:13:47.575Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale 200
+[debug] [2022-10-31T23:13:47.575Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale {"projectId":"porfolio0022ale","projectNumber":"1071589319567","displayName":"Porfolio","name":"projects/porfolio0022ale","resources":{"hostingSite":"porfolio0022ale","realtimeDatabaseInstance":"porfolio0022ale-default-rtdb","storageBucket":"porfolio0022ale.appspot.com","locationId":"southamerica-east1"},"state":"ACTIVE","etag":"1_72984ad5-0106-4eb1-9916-39660b138543"}
+[debug] [2022-10-31T23:13:47.576Z] database rules config:  [{"instance":"porfolio0022ale-default-rtdb","rules":"C:\\Users\\aleja\\database.rules.json"}]
+[debug] [2022-10-31T23:13:47.578Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2022-10-31T23:13:47.578Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-10-31T23:13:47.578Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2022-10-31T23:13:47.578Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\aleja\\.cache\\firebase\\emulators\\firebase-database-emulator-v4.10.0.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning","--functions_emulator_host","127.0.0.1","--functions_emulator_port",5001],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\aleja\\\\.cache\\\\firebase\\\\emulators\\\\firebase-database-emulator-v4.10.0.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\",\"--functions_emulator_host\",\"127.0.0.1\",\"--functions_emulator_port\",5001],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2022-10-31T23:13:55.127Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2022-10-31T23:13:55.128Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-10-31T23:13:55.128Z] Starting Pub/Sub Emulator with command {"binary":"C:\\Users\\aleja\\.cache\\firebase\\emulators\\pubsub-emulator-0.1.0\\pubsub-emulator\\bin\\cloud-pubsub-emulator.bat","args":["--host=127.0.0.1","--port=8085"],"optionalArgs":["port","host"],"joinArgs":true} {"metadata":{"emulator":{"name":"pubsub"},"message":"Starting Pub/Sub Emulator with command {\"binary\":\"C:\\\\Users\\\\aleja\\\\.cache\\\\firebase\\\\emulators\\\\pubsub-emulator-0.1.0\\\\pubsub-emulator\\\\bin\\\\cloud-pubsub-emulator.bat\",\"args\":[\"--host=127.0.0.1\",\"--port=8085\"],\"optionalArgs\":[\"port\",\"host\"],\"joinArgs\":true}"}}
+[info] i  pubsub: Pub/Sub Emulator logging to pubsub-debug.log {"metadata":{"emulator":{"name":"pubsub"},"message":"Pub/Sub Emulator logging to \u001b[1mpubsub-debug.log\u001b[22m"}}
+[debug] [2022-10-31T23:13:57.240Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-10-31T23:13:58.035Z] Temp file directory for storage emulator: C:\Users\aleja\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\aleja\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2022-10-31T23:13:58.041Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/porfolio0022ale/sites 
+[debug] [2022-10-31T23:13:59.193Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/porfolio0022ale/sites 200
+[debug] [2022-10-31T23:13:59.193Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/porfolio0022ale/sites {"sites":[{"name":"projects/porfolio0022ale/sites/porfolio0022ale","defaultUrl":"https://porfolio0022ale.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-10-31T23:13:59.193Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale/webApps/-/config [none]
+[debug] [2022-10-31T23:13:59.816Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale/webApps/-/config 200
+[debug] [2022-10-31T23:13:59.816Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale/webApps/-/config {"projectId":"porfolio0022ale","databaseURL":"https://porfolio0022ale-default-rtdb.firebaseio.com","storageBucket":"porfolio0022ale.appspot.com","locationId":"southamerica-east1","apiKey":"AIzaSyBMVXfDVvbehuzH0Q6p1sMOTNzmJSKfqI8","authDomain":"porfolio0022ale.firebaseapp.com","messagingSenderId":"1071589319567"}
+[debug] [2022-10-31T23:13:59.820Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale [none]
+[debug] [2022-10-31T23:14:00.201Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale 200
+[debug] [2022-10-31T23:14:00.201Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/porfolio0022ale {"projectId":"porfolio0022ale","projectNumber":"1071589319567","displayName":"Porfolio","name":"projects/porfolio0022ale","resources":{"hostingSite":"porfolio0022ale","realtimeDatabaseInstance":"porfolio0022ale-default-rtdb","storageBucket":"porfolio0022ale.appspot.com","locationId":"southamerica-east1"},"state":"ACTIVE","etag":"1_72984ad5-0106-4eb1-9916-39660b138543"}
+[info] i  hosting[porfolio0022ale]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[porfolio0022ale]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-10-31T23:14:00.227Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-10-31T23:14:00.227Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-10-31T23:14:00.228Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\aleja\\.cache\\firebase\\emulators\\ui-v1.11.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\aleja\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-10-31T23:14:00.370Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2022-10-31T23:14:00.370Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\aleja\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\aleja\\functions\" for Cloud Functions..."}}
+[debug] [2022-10-31T23:14:00.489Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-10-31T23:14:03.110Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-10-31T23:14:03.110Z] Building nodejs source
+[debug] [2022-10-31T23:14:03.111Z] Analyzing nodejs backend spec
+[debug] [2022-10-31T23:14:03.113Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-10-31T23:14:03.351Z] Serving at port 9005
+
+[debug] [2022-10-31T23:14:03.427Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-10-31T23:14:03.434Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[debug] [2022-10-31T23:14:03.453Z] >>> [apiv2][query] PUT http://127.0.0.1:9000/.settings/rules.json ns=porfolio0022ale-default-rtdb
+[debug] [2022-10-31T23:14:03.453Z] >>> [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json "{\n  /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */\n  \"rules\": {\n    \".read\": false,\n    \".write\": false\n  }\n}"
+[debug] [2022-10-31T23:14:03.933Z] <<< [apiv2][status] PUT http://127.0.0.1:9000/.settings/rules.json 200
+[debug] [2022-10-31T23:14:03.933Z] <<< [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json {"status":"ok"}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Database       │ 127.0.0.1:9000 │ http://127.0.0.1:4000/database  │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Hosting        │ 127.0.0.1:5000 │ n/a                             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Pub/Sub        │ 127.0.0.1:8085 │ n/a                             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage   │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Eventarc       │ 127.0.0.1:9299 │ n/a                             │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

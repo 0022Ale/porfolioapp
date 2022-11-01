@@ -14,6 +14,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PorfolioService } from './servicios/porfolio.service';
 import { LoginComponent } from './componentes/login/login.component';
+import { LayoutComponent } from './componentes/layout/layout.component';
+import { PagesComponent } from './componentes/pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { LoginComponent } from './componentes/login/login.component';
     HabilidadesComponent,
     ProyectosComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    LayoutComponent,
+    PagesComponent
 ],
 
   imports: [

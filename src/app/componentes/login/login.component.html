@@ -1,23 +1,23 @@
-<div class="formcontainer" id="seis">
+<div class="formcontainer">
   <div class="logincontainer" id="ingreso">
-      <h1>LOGIN USUARIO</h1>
-      <form id="siete">
+      <h3>Bienvenido a Mi Porfolio </h3>
+      <form method="post" id="fc">
           <div class="formulario">
-              <label for="inputEmail" class="form__label">Email: </label>
-              <input type="email" class="inpunt" placeholder="Ingrese correo electrónico" formcControlName="userId" id="email" required>
+              <label for="username">Usuario</label>
+              <input class="inpunt" type="text" placeholder="Ingrese Nombre Usuario" name="username" id="username" required>
+              <label for="password">Password</label>
+              <input class="inpunt" type="text" placeholder="Ingrese contraseña" name="password" id="password" required>
           </div>
-          <br/>
+          <div class="opciones">
+              <div>
+                  <input type="checkbox" id="rememberme">
+                  <label for="rememberme">Recordar mis datos</label>
+                  <a href="#">Olvide mi  password</a>
+              </div>
           <div class="formulario">
-              <label for="InputPassword" class="form__label">Password: </label>
-              <input type="password" class="inpunt" class="inpunt" placeholder="Ingrese contraseña" formcControlName="password" id="password" required>
+              <a href="/index.html"><button type="button" name="cancelar"class="cancel">X</button></a>
+              <a href="/indexedicion.html"><button type="submit" name="btnlogin" class="btnlogin" id="btnlogin">LOGIN</button></a>
           </div>
-          <br/>
-          <div class="formulario">
-              <button type="submit" class="btnlogin">Iniciar Sesión</button>
-          </div>
-          <div class="formulario">
-              <a href="/index.html"><button class="cancel" type="button" name="cancelar"><i class="fa fa-close" aria-hidden="true"></i></button></a>
-          </div>
-      </form>
+        </form>
   </div>
 </div>
