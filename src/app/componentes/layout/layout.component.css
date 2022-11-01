@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+/*estilos generales*/
+
+hr {
+    width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ a:hover, a:focus {
+    Color: blue;
+    text-decoration: dotted;
+    text-decoration: underline;
+}
+
+h2, h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2:hover, h2:focus{
+    color: blueviolet;
+    text-decoration: underline;
+    text-transform:uppercase;
+}
+
+.banner, .acercademi, .experiencia, .educacion, .habilidades, .proyectos {
+    border: 2px solid navy;
+    border-radius: 2%;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.editar {
+    position: absolute;
+    min-width: 20%;
+    max-width: 19%;
+    opacity: 1;
+    text-align: right;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.banner .informacion .editar {
+    width: 80%;
+    min-width: 60%;
+    max-width: 60%;
+}
+
+/* Redes Sociales */
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter {
+    background: lightskyblue;
+    color: white;
+}
+
+.fa-facebook {
+    background: blue;
+    color: white;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Contendor */
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flexbox;
+    text-align: justify;
+}
+
+.acercademi, .experiencia, .educacion, .habilidades, .proyectos {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/* Encabezado */
+.encabezado {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Barra de Navegacion Izquierda */
+.encabezado .nav__left {
+    align-items: left;
+}
+.encabezado .nav__left span{
+    color: white;
+}
+.encabezado .nav__left img {
+    width: 6rem;
+    vertical-align: middle;
+}
+
+/* Barra de Navegacion Dcha */
+ul{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+}
+
+.encabezado .nav__right {
+    align-items: right;
+}
+
+.encabezado .nav__right i {
+    margin: 10px;
+    color: white;
+    vertical-align: middle;
+}
+
+/* Banner */
+
+.banner .informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    justify-content:space-between;
+}
+
+.banner .principal img {
+    width:100%;
+    height: 300px;
+}
+
+.banner .informacion{
+    display: grid;
+    width: 60%;
+    justify-content: start;
+    align-items: baseline;
+    justify-items: stretch;
+    align-content: stretch;
+}
+
+.banner .secundaria img {
+    position: relative;
+    margin-top: -15%;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Acerca de Mi */
+
+.infomi{
+    padding: 5px;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+/* Experiencia */
+
+.experiencia ul{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.empresa {
+    padding: 10px;
+    border: 1px solid navy;
+    text-align: center;
+    background-color: rgba(240, 255, 255, 0.5);
+    text-transform:capitalize;
+}
+
+.puesto {
+    padding: 20px;
+    text-align: left;
+    margin-left: 5%;
+    text-decoration: underline;
+    font-weight: bold;;
+}
+
+.descripcion{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10px;
+}
+
+/* Educacion */
+
+
+.educacion .descripcion {
+    display: grid;
+    flex-direction: row;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin: 5%;
+    padding: 5%;
+    background-color: rgba(101, 243, 236, 0.562);
+    border-radius: 10px;
+}
+
+.educacion .logoed {
+    margin: 5%;
+    padding: 5%;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: scale-down;
+    text-align: right;
+    background-color: #80cbc3b7;
+    border: 1px solid #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.educacion h3, h4{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.estudios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 20px auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.idiomas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 20PX auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.formacion{
+    border: darkcyan;
+    border-style: dotted;
+}
+
+.idiomas p{
+    margin: 5%;
+    padding: 5%;
+    background-color: rgba(101, 243, 236, 0.562);
+    border-radius: 10px;
+}
+
+/* Habilidades */
+
+.habilidades{
+    align-items: center;
+}
+
+.skills{
+    display: grid;
+    margin-left: 15%;
+    margin-right: 15%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 2em;
+  }
+
+.habilidades .outer-box {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-bottom: 30px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.habilidades .inner-box {
+    font-size: 15px;
+    text-align:center;
+    white-space: pre-line;
+}
+
+svg {
+    position: absolute;
+}
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 50;
+    animation: loading 2s linear forwards;
+}
+
+  @keyframes loading {
+    50% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+/* Proyectos */
+
+.proyectos{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.footer {
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav__footer {
+    display: flexbox;
+    vertical-align: text-top;
+    font-size: medium;
+    padding: 10px;
+}
+
+.nav__footer a{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 5px 5px 10px;
+    justify-content: center;
+}
+
+
+/* Login */
+
+/*formato globlal de los botones*/
+
+.btn {
+    border: none;
+    width: 100%;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    opacity: .7;
+}
+
+/* Formulario Login */
+
+.formcontainer {
+    position: fixed;
+    z-index: 1;
+    left: 1em;
+    top: 1em;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    overflow:auto;
+    background-color: hsla(249, 65%, 45%, 0.726);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+    display: none;
+}
+
+.formcontainer .logincontainer{
+    background-color:whitesmoke;
+    margin: 10px auto;
+    border: 5px solid hsla(249, 65%, 45%, 0.726);
+    width: 60%;
+    color: rgb(7, 7, 121);
+}
+
+.logincontainer .formulario{
+    display: grid;
+    text-align: left;
+    color: hsl(240, 20%, 70%);
+    font-weight: 900;
+    margin: 10px auto;
+    padding: 20px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: solid 1px #eee;
+}
+
+.logincontainer .formulario label,
+.logincontainer .formulario input,
+.logincontainer .formulario a {
+    font-size: large;
+    justify-content:space-around;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+  /* boton de cierre */
+  .cancel{
+    position: absolute;
+    right: 17%;
+    top: 7%;
+    color: #000;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+  }
+
+  /* animaciones del boton cerrar */
+  .cancel:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  /* Boton Enviar */
+
+  .btnlogin{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration:solid hsla(249, 65%, 45%, 0.726);
+    text-align: center;
+    padding: 5px 0px;
+    border: 2px solid hsla(249, 65%, 45%, 0.726);
+  }
+
+/* Mobile */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .encabezado, .container, .footer, .formcontainer {
+        width: 95%;
+        font-size: small;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .encabezado, .container, .footer, .formcontainer {
+        width: 95%;
+        font-size: medium;
+    }
+ }
+
+
+/* Escritorio */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .encabezado, .container, .footer, .formcontainer {
+        width: 95%;
+        font-size: large;
+    }
+}
